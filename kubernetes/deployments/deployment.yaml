@@ -43,8 +43,8 @@ spec:
           limits:
             memory: "256Mi"
             cpu: "500m"
-      - name: example-app2
-        image: aimvector/python:1.0.4
+      - name: nginx
+        image: nginx
         imagePullPolicy: Always
         ports:
         - containerPort: 5001
