@@ -44,8 +44,7 @@ spec:
             memory: "256Mi"
             cpu: "500m"
       - name: nginx
-        image: nginx
-        imagePullPolicy: Always
+        image: nginx:latest
         ports:
         - containerPort: 5001
         # livenessProbe:
