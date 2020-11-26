@@ -47,7 +47,7 @@ spec:
         image: aimvector/python:1.0.4
         imagePullPolicy: Always
         ports:
-        - containerPort: 5000
+        - containerPort: 5001
         # livenessProbe:
         #   httpGet:
         #     path: /status
